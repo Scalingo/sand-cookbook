@@ -6,7 +6,7 @@ Install [SAND Network Daemon](https://github.com/Scalingo/sand)
 Requirements
 ------------
 
-None, this is Go !
+None, this is Go!
 
 Attributes
 ----------
