@@ -40,7 +40,7 @@ binary_path = File.join(node['sand']['install_path'], "sand-agent")
 env = node['sand']['env'].select{|k, v|
   !v.nil? && v && v != ""
 }.map{|k, v|
-  "#{k}=#{v}"
+  "#{k.upcase}=#{v}"
 }
 
 manager = Chef::Provider::Service::Upstart

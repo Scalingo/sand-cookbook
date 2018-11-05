@@ -1,7 +1,6 @@
-
 default["sand"] = {
-  "download_url" => "https://github.com/Scalingo/sand/releases/download/",
-  "version" => "v0.2.0",
+  "download_url" => "https://github.com/Scalingo/sand/releases/download",
+  "version" => "v0.3.0",
   "arch" => "amd64",
   "install_path" => "/usr/local/bin",
   "env" => {
@@ -19,7 +18,7 @@ default["sand"] = {
     "http_tls_cert" => "",
     "http_tls_key" => "",
     "http_tls_ca" => "",
-    "enabled_docker_plugin" => false,
+    "enabled_docker_plugin" => true,
     "docker_plugin_http_port" => 9998,
   }
 }
