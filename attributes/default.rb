@@ -18,7 +18,7 @@ default["sand"] = {
     "http_tls_cert" => "",
     "http_tls_key" => "",
     "http_tls_ca" => "",
-    "enabled_docker_plugin" => true,
+    "enable_docker_plugin" => true,
     "docker_plugin_http_port" => 9998,
   }
 }
