@@ -52,6 +52,7 @@ if node['init_package'] == "systemd"
     systemd_content = {
       "Unit" => {
         "Description" => "sand-agent - SAND Network Daemon",
+        "Before" => "docker.service",
         "After" => "network.target"
       },
       "Service" => {

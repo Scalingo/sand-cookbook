@@ -5,6 +5,7 @@ default["sand"] = {
   "install_path" => "/usr/local/bin",
   "env" => {
     "rollbar_token" => "",
+    "rollbar_env" => "production",
     "go_env" => "production",
     "netns_prefix" => "sc-ns-",
     "netns_path" => "/var/run/netns",
