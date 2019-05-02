@@ -1,6 +1,6 @@
 default["sand"] = {
   "download_url" => "https://github.com/Scalingo/sand/releases/download",
-  "version" => "v0.3.0",
+  "version" => "v0.5.6",
   "arch" => "amd64",
   "install_path" => "/usr/local/bin",
   "env" => {
