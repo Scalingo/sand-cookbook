@@ -31,7 +31,7 @@ bash "extract sand #{node['sand']['version'] }" do
     mv #{dir_dest_path}/sand-agent #{node['sand']['install_path']}
     mv #{dir_dest_path}/sand-agent-cli #{node['sand']['install_path']}
   EOH
-  subscribes :run, "remote_file[#{archive_dest_path}]"
+  subscribes :run, "remote_file[#{archive_dest_path}]", :immediately
   action :nothing
 end
 
