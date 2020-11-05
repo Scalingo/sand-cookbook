@@ -3,6 +3,10 @@ Sand CHANGELOG
 
 This file is used to list changes made in each version of the SAND cookbook.
 
+## v0.1.0
+
+- [Soulou] - Fix sand-agent.service Unit file, correctly start in standar multi-user mode
+
 ## v0.0.3
 
 - [Soulou] - Add ROLLBAR_ENV to environment to configure Rollbar
