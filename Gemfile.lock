@@ -78,7 +78,8 @@ GEM
       mixlib-log
     mixlib-authentication (1.4.2)
     mixlib-cli (1.7.0)
-    mixlib-config (2.2.5)
+    mixlib-config (2.2.18)
+      tomlrb
     mixlib-log (1.7.1)
     mixlib-shellout (2.3.2)
     multi_json (1.13.1)
