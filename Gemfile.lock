@@ -74,7 +74,7 @@ GEM
     iso8601 (0.9.1)
     libyajl2 (2.1.0)
     mini_portile2 (2.8.0)
-    mixlib-archive (0.4.1)
+    mixlib-archive (0.4.20)
       mixlib-log
     mixlib-authentication (1.4.2)
     mixlib-cli (1.7.0)
