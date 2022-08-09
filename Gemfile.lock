@@ -3,7 +3,7 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    backports (3.11.1)
+    backports (3.23.0)
     builder (3.2.4)
     chef (13.7.16)
       addressable
