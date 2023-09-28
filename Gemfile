@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'foodcritic'
-gem 'chef'
+gem "chef", "~> 15"
+gem "foodcritic"
