@@ -1,6 +1,9 @@
 SAND Cookbook
 ================
 
+> [!WARNING]
+> This repository has been deprecated and archived.
+
 Install [SAND Network Daemon](https://github.com/Scalingo/sand)
 
 Requirements
